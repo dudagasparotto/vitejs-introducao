@@ -1,0 +1,36 @@
+
+body {
+  margin: 0;
+  display: flex;
+  /*place-items: center;*/
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 { /*home pag nao usa h1*/
+  font-size:28px;
+  line-height:bold;
+  line-height: 1.1;
+  margin: 20px;
+  color:blue
+}
+h2{  /*titulos são aqui*/
+  font-size:23px;
+  line-height:bold;
+  line-height: 1.1;
+  margin: 10px;
+}
+h3{
+  font-size:19px;
+  line-height:bold;
+  line-height: 1.1;
+}
+label{
+  font-size:18px;
+}
+p{
+  font-size:16px;
+}
+small{
+  font-size: 13px;
+}
