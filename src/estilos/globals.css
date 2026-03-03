@@ -5,9 +5,11 @@ body {
   /*place-items: center;*/
   min-width: 320px;
   min-height: 100vh;
+  border: 13px solid red ;
+  box-sizing: border-box ;
 }
 
-h1 { /*home pag nao usa h1*/
+H1 { /*home pag nao usa h1*/
   font-size:28px;
   line-height:bold;
   line-height: 1.1;

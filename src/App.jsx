@@ -1,20 +1,21 @@
-import { useState } from 'react'
+import { Routes,Route } from 'react-router-dom'
 
-import Home from './pages/home';
-import Sobre from './pages/sobre';
+
+import Home from './pags/home';
+import Sobre from './pags/sobre';
 
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import './App.css'
+
 
 function App() {
  
   return (
     <div>
-     <Routers>
+     <Routes>
      <Route path = '/' element = {<Home/>}/>
      <Route path = '/Sobre' element = {<Sobre/>} />
-    </Routers>
+    </Routes>
     </div>
   )
 }
