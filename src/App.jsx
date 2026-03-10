@@ -1,12 +1,8 @@
 import { Routes,Route } from 'react-router-dom'
 
-
 import Home from './pags/home';
-import Sobre from './pags/sobre';
-
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-
+import Exemplo01 from './pags/exemplos/ex01';
+import Exemplo02 from './pags/exemplos/ex02';
 
 function App() {
  
@@ -14,7 +10,8 @@ function App() {
     <div>
      <Routes>
      <Route path = '/' element = {<Home/>}/>
-     <Route path = '/Sobre' element = {<Sobre/>} />
+     <Route path = '/Exemplo/01' element = {<Exemplo01/>} />
+     <Route path = '/Exemplo/02' element = {<Exemplo02/>} />
     </Routes>
     </div>
   )
