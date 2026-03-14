@@ -1,10 +1,10 @@
 
-import './index.css';
+import styles from './index.module.css';
 
 function Exemplo02() {
 
   return (
-    <div className='container'>
+    <div className={styles.container}>
       <h1>Aula Introdução Vite JS</h1>      
       <h2>Preparo do projeto</h2>
       <h3>Estilização</h3>
@@ -15,11 +15,11 @@ function Exemplo02() {
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam nemo explicabo dicta sequi maiores nam laudantium? Doloremque deserunt voluptates quidem nulla delectus nam illum. Tenetur quisquam placeat consequuntur expedita quasi. 
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat magnam incidunt fugit reprehenderit dolor quidem natus, iste eveniet inventore accusantium rerum culpa. Nisi tempore consequuntur suscipit quia maiores ab. Fugiat!
       </p>
-      <div className='containerBlocos'>
-        <div className='brancoBranco'></div>
-        <div className='brancoCinza'></div>
-        <div className='pretoPreto'></div>
-        <div className='pretoCinza'></div>
+      <div className={styles.containerBlocos}>
+        <div className={styles.container.brancoBranco}></div>
+        <div className={styles.container.brancoCinza}></div>
+        <div className={styles.container.pretoPreto}></div>
+        <div className={styles.container.pretoCinza}></div>
       </div>
     </div>
   )
