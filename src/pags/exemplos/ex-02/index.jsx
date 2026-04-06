@@ -16,10 +16,10 @@ function Exemplo02() {
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat magnam incidunt fugit reprehenderit dolor quidem natus, iste eveniet inventore accusantium rerum culpa. Nisi tempore consequuntur suscipit quia maiores ab. Fugiat!
       </p>
       <div className={styles.containerBlocos}>
-        <div className={styles.container.brancoBranco}></div>
-        <div className={styles.container.brancoCinza}></div>
-        <div className={styles.container.pretoPreto}></div>
-        <div className={styles.container.pretoCinza}></div>
+        <div className={styles.brancoBranco}></div>
+        <div className={styles.brancoCinza}></div>
+        <div className={styles.pretoPreto}></div>
+        <div className={styles.pretoCinza}></div>
       </div>
     </div>
   )

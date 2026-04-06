@@ -10,7 +10,7 @@
   /* place-items: center; */
   min-width: 32rem;
   min-height: 100vh;
-  border: 1px solid rgb(206, 125, 58);
+  /* border: 1px solid red; */
   /* box-sizing: border-box; */
   width: 100%;
 }
@@ -67,9 +67,8 @@ small {
 
 a {
   text-decoration: none;
-  font-family: Impact, 'Arial Narrow Bold', sans-serif;
   font-size: 1.6rem; 
-  color: rgb(237, 100, 237);
+  color: cornflowerblue; 
   margin-bottom: 0.5rem;
 }
 

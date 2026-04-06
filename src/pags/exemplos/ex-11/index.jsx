@@ -2,7 +2,7 @@ import { useState } from 'react';
 
 import styles from './index.module.css';
 
-function Exemplo03() {
+function Exemplo11() {
   // Mock de dados inicial (READ)
   const [items, setItems] = useState([
     { id: 1, text: 'Aprender Vite.js' },
@@ -82,4 +82,4 @@ function Exemplo03() {
   );
 }
 
-export default Exemplo03;
+export default Exemplo11;
